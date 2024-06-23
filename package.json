@@ -1,0 +1,20 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "proxy": "http://localhost:5000",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mysql2": "^3.10.1"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "description": ""
+}
